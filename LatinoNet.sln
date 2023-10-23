@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{E900F23F-1148-4F99-B618-C6508558A76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNET.Entities", "LatinoNET.Entities\LatinoNET.Entities.csproj", "{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Interface Adapters", "{08CDA548-6828-4643-B43F-4C0EFD48FDD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{998285C1-DDA5-4091-BFE1-FD06EE1A6A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.RepositoryEFCore", "LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj", "{0381CEF4-303D-43BB-A004-497D81BC4209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0381CEF4-303D-43BB-A004-497D81BC4209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0381CEF4-303D-43BB-A004-497D81BC4209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0381CEF4-303D-43BB-A004-497D81BC4209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0381CEF4-303D-43BB-A004-497D81BC4209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6} = {E900F23F-1148-4F99-B618-C6508558A76E}
+		{998285C1-DDA5-4091-BFE1-FD06EE1A6A6E} = {08CDA548-6828-4643-B43F-4C0EFD48FDD1}
+		{0381CEF4-303D-43BB-A004-497D81BC4209} = {998285C1-DDA5-4091-BFE1-FD06EE1A6A6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9030CA1C-EC7E-49A0-8FC5-5C0E458CAB45}
+	EndGlobalSection
+EndGlobal
