@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LatinoNet.Presenters\LatinoNet.Presenters.csproj" />
+    <ProjectReference Include="..\LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj" />
+    <ProjectReference Include="..\LatinoNet.UseCases\LatinoNet.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>

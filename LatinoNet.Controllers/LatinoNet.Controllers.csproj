@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LatinoNET.Entities\LatinoNET.Entities.csproj" />
+    <ProjectReference Include="..\LatinoNet.Presenters\LatinoNet.Presenters.csproj" />
     <ProjectReference Include="..\LatinoNet.UseCasesPorts\LatinoNet.UseCasesPorts.csproj" />
   </ItemGroup>
 
