@@ -5,13 +5,21 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{E900F23F-1148-4F99-B618-C6508558A76E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNET.Entities", "LatinoNET.Entities\LatinoNET.Entities.csproj", "{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatinoNET.Entities", "LatinoNET.Entities\LatinoNET.Entities.csproj", "{319DDA52-C0F9-417F-80AD-3F03DB3B76D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Interface Adapters", "{08CDA548-6828-4643-B43F-4C0EFD48FDD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{998285C1-DDA5-4091-BFE1-FD06EE1A6A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.RepositoryEFCore", "LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj", "{0381CEF4-303D-43BB-A004-497D81BC4209}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatinoNet.RepositoryEFCore", "LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj", "{0381CEF4-303D-43BB-A004-497D81BC4209}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{040CF743-AE24-4FDF-9511-6243F9BB63CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.DTOs", "LatinoNet.DTOs\LatinoNet.DTOs.csproj", "{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.UseCasesPorts", "LatinoNet.UseCasesPorts\LatinoNet.UseCasesPorts.csproj", "{A9ADCFC7-3920-4377-97E4-DE0072DE73D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.UseCases", "LatinoNet.UseCases\LatinoNet.UseCases.csproj", "{9943A701-3F30-41F8-A912-65C8BDCD392A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,18 @@ Global
 		{0381CEF4-303D-43BB-A004-497D81BC4209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0381CEF4-303D-43BB-A004-497D81BC4209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0381CEF4-303D-43BB-A004-497D81BC4209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ADCFC7-3920-4377-97E4-DE0072DE73D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ADCFC7-3920-4377-97E4-DE0072DE73D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ADCFC7-3920-4377-97E4-DE0072DE73D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ADCFC7-3920-4377-97E4-DE0072DE73D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9943A701-3F30-41F8-A912-65C8BDCD392A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9943A701-3F30-41F8-A912-65C8BDCD392A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9943A701-3F30-41F8-A912-65C8BDCD392A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9943A701-3F30-41F8-A912-65C8BDCD392A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +55,9 @@ Global
 		{319DDA52-C0F9-417F-80AD-3F03DB3B76D6} = {E900F23F-1148-4F99-B618-C6508558A76E}
 		{998285C1-DDA5-4091-BFE1-FD06EE1A6A6E} = {08CDA548-6828-4643-B43F-4C0EFD48FDD1}
 		{0381CEF4-303D-43BB-A004-497D81BC4209} = {998285C1-DDA5-4091-BFE1-FD06EE1A6A6E}
+		{5AFD1FF7-6090-4B67-92DB-BF396D58A6BE} = {040CF743-AE24-4FDF-9511-6243F9BB63CC}
+		{A9ADCFC7-3920-4377-97E4-DE0072DE73D8} = {040CF743-AE24-4FDF-9511-6243F9BB63CC}
+		{9943A701-3F30-41F8-A912-65C8BDCD392A} = {040CF743-AE24-4FDF-9511-6243F9BB63CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9030CA1C-EC7E-49A0-8FC5-5C0E458CAB45}

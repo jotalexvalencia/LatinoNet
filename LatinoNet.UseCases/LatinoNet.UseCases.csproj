@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LatinoNET.Entities\LatinoNET.Entities.csproj" />
+    <ProjectReference Include="..\LatinoNet.UseCasesPorts\LatinoNet.UseCasesPorts.csproj" />
+  </ItemGroup>
+
+</Project>
